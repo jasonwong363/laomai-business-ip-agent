@@ -1,0 +1,21 @@
+# Local environment
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated indexes and runtime data
+storage/
+
+# Private knowledge materials
+knowledge/**/*.md
+!knowledge/**/.gitkeep
+私董会学员ai投喂资料/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
