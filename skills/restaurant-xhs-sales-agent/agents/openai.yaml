@@ -1,0 +1,4 @@
+interface:
+  display_name: "餐饮小红书销售"
+  short_description: "餐饮小红书全国攻略铺量业务的销售话术和成交工作流。"
+  default_prompt: "Use $restaurant-xhs-sales-agent to write WeChat sales replies, objection handling, and package recommendations for my restaurant Xiaohongshu guide distribution business."

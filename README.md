@@ -8,6 +8,12 @@
 skills/laomai-business-ip
 ```
 
+另有一个面向麒麟Kyrin餐饮小红书业务的销售优先 Skill：
+
+```text
+skills/restaurant-xhs-sales-agent
+```
+
 ## Skill 包含什么
 
 - `SKILL.md`：老麦商业 IP 工作流规则
@@ -32,6 +38,18 @@ python C:\Users\jason\.codex\skills\.system\skill-installer\scripts\install-skil
 ```
 
 安装后重启 Codex。
+
+安装餐饮小红书销售 Skill：
+
+```text
+安装这个 Skill：jasonwong363/laomai-business-ip-agent，路径 skills/restaurant-xhs-sales-agent
+```
+
+调用示例：
+
+```text
+用 $restaurant-xhs-sales-agent，帮我回复一个觉得1.2万套餐太贵的餐饮老板。
+```
 
 ## 使用方式
 
